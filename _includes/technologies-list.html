@@ -1,0 +1,12 @@
+{% assign technologies = site.technologies %}
+<div class="container">
+  <h2 class="title text-center"><span class="underlined blue">Our Technologies</span></h2>
+
+<div class="row">
+{% for technology in technologies %}
+<div class="col-sm-6">
+  <h5><a href="{{technology.url}}">{{technology.title}}</a></h5>
+</div>
+{% endfor %}
+</div>
+</div>

@@ -1,0 +1,30 @@
+{% assign sections = include.sections %}
+{% for part in sections %}
+    {% capture thecycle %}{% cycle 'even','odd' %}{% endcapture %}
+    <h2 class="title text-center"><span class="underlined blue">{{ part.title }}</span></h2>
+    <div class="row d-flex align-items-center">
+        {% if thecycle == 'even' %}
+            {% if part.img_path %}
+                <div class="col-sm-5">
+                    <div class="image-wrapper">
+                        <img data-src="{{ part.img_path }}" alt="">
+                    </div>
+                </div>
+            {% endif %}
+            <div class="text-left {% if part.img_path %}col-sm-7{% else %}col-12{% endif %}">
+                <p class="text-left">{{ part.text }}</p>
+            </div>
+        {% else %}
+            <div class="text-left {% if part.img_path %}col-sm-7{% else %}col-12{% endif %}">
+                <p class="text-left">{{ part.text }}</p>
+            </div>
+            {% if part.img_path %}
+                <div class="col-sm-5">
+                    <div class="image-wrapper">
+                        <img data-src="{{ part.img_path }}" alt="">
+                    </div>
+                </div>
+            {% endif %}
+        {% endif %}
+    </div>
+{% endfor %}

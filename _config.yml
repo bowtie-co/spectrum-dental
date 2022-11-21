@@ -1,0 +1,144 @@
+# Site settings
+title: "Spectrum Dental; Worthington, Ohio Prosthodontics and Cosmetic Dentistry"
+description: We are a caring and highly trained team of Worthington dentists focused on delivering the highest quality treatment and service. Our mission is to provide all of our patients with consistent, high-quality care in a comfortable and pleasant environment. We do this by maximizing the three main facets of our practice&#58; team, facility, and education. Our staff has committed to our mission with cutting-edge technology and with expanding our knowledge through continuing education. Our doctors have had extensive training, teaching experience, been published in numerous publications, and manage one of the longest standing continuing education study clubs in the greater Columbus area, Spectrum Dental Society.
+email: "megan@spectrum-dental.com"  # e.g. admin@asird.org
+experience: 20
+
+url: https://www.spectrum-dental.com/
+
+logourl:  /img/asird-logo.png # Your logo or avatar files
+navlogourl: /images\logo.png # Your logo or avatar files
+footer_logourl: '/images\logo.png'
+vertical_logourl:  # logo used in footer
+bg-tile:
+tos-link:
+
+authedurl: # should be blank or '/' unless customized for use with the bowtie-auth.js pswd protection
+
+stagingurl:
+productionurl:
+
+author:
+author_thumbnail:  # default author avatar
+
+# Theme additions - please update the default values if you intend to use these variables
+
+google_analytics_id:  '' # Your google analytics ID (e.g. 'UA-XXXXXXXX-X')
+google_api_key: AIzaSyCWwI6hxOqcIqYZOoVcmiCNK6Zm4uBR0CI
+sumoid:  # e.g. 'b8fe3b113e8eff21df4c245af51b205fc3a7ff5ab889892be1e98f4a50cd94a6'
+
+doctor:
+  name-1: Bradley Purcell, DDS, MS
+  name-2: Ryan Mizumoto, DMD, MS, FACP
+  name-3: Mohamed Abdelhamed, BDS, MS
+  practicename: Spectrum Dental and Prosthodontics
+  practicetagline: Over 90 years of experience.
+  intro-1: "Dr. Bradley Purcell received his dental degree from Marquette University School of Dentistry in 2002 and received his Specialty in Prosthodonticscertificate and Masters of Science degree from The Ohio State University School of Dentistry in 2005. He graduated with honors from both universities and is a member of three academic honor societies. Dr. Purcell maintains a private practice limited to Prosthodontics at Spectrum Dental & Prosthodontics. As a private practitioner, Dr. Purcell has been repeatedly selected by his peers to 'Columbus Best Dentists' and 'America’s Best Dentists.' Dr. Purcell’s practice focuses on providing a high level of care in a warm and caring environment. Dr. Purcell and his team are dedicated to providing their patient’s an optimal experience from the moment they call the office. <br/><br/>Dr. Purcell continues to publish articles in peer-reviewed journals in the area of dental implants and is an editor for the 'International Journal of Oral and Maxillofacial Implants,' the world’s foremost dental implant scientific journal and the official journal of the Academy of Osseointegration. Dr. Purcell teaches at The Ohio State University School of Dentistry and lectures nationally in the area of dental implants and dental prosthodontics. Dr. Purcell also runs Spectrum Dental Society, a continuing education AGD Certified study club dedicated to providing high-level education to area dentistsand has a lecture facility attached to and affiliated with Spectrum Dental & Prosthodontics."
+  intro-2: "Dr. Ryan Mizumoto was born and raised in Seattle, Washington and attended the University of California- San Diego on a soccer scholarship. He received his dental degree from Case Western in 2009 and completed a 1-year Hospital-Based General Practice Residency at Illinois Masonic Medical Center in Chicago in 2010. Dr. Mizumoto practiced as a general dentist for five years in Cleveland before pursuing his passion and returning to school for formal training in Prosthodontics. <br/><br/>Dr. Mizumoto is a graduate of the Advanced Prosthodontic Program at The Ohio State University. He has published numerous research manuscripts and was the 2019 recipient of the prestigious Tylman Research Award through the American Academy of Fixed Prosthodontics. Dr. Mizumoto has achieved board-certification and diplomate status through the American Board of Prosthodontics, an achievement that only 25% of all prosthodontists obtain, and is a Fellow in the American College of Prosthodontists. He is one of three board-certified prosthodontists in the entire state of Ohio who maintains a full-time, private practice. He is a member of the American Academy of Fixed Prosthodontics, the American College of Prosthodontists, American Academy of Cosmetic Dentistry, the Spectrum Dental Society and the SFUMATO chapter of the Seattle Study Club. He currently serves as the Treasurer for the Boucher Prosthodontic Conference and is on the editorial board for the ACP Messenger. He has lectured locally, nationally, and internationally on various topics in Prosthodontics."
+  intro-3: "Dr. Mohamed Abdelhamed was born and raised in Egypt and received his dental degree from Cairo University in 1996. He completed a Hospital-Based Internship at Cairo University Hospital the following year and then served as a general dentist in the military before deciding to pursue a specialty degree in prosthodontics. He attended the Suez Canal University School of Dentistry for his training in prosthodontics and was appointed as a clinical faculty member in the department of Prosthodontics immediately following. <br/><br/>In 2007, he was accepted to the Advanced Prosthodontics program at The Ohio State University, where he received his Specialty Certificate and Master’s of Science Degree. As a resident, he was awarded the prestigious Astra Tech IIS Award for his research in implant dentistry. Following his prosthodontic residency, Dr. Abdelhamed continued his training in the implant-prosthetic fellowship program at OSU. His passion for implant dentistry then led him to the University of Maryland where he completed a surgical implant fellowship. In 2013, he returned to Columbus and has been in private practice since. He was also appointed as a part time faculty member in the Ohio State University Advanced Prosthodontics Program."
+  education:
+  profile_img-1: /master_bio_images/spectrum-dental/Dr-Purcell-Headshot.jpg
+  profile_img-2: /master_bio_images/spectrum-dental/Dr-Mizumoto-Headshot.jpg
+  profile_img-3: /master_bio_images/spectrum-dental/Dr-Mohamed-Headshot.jpg
+  contact:
+    company:  "Spectrum Dental and Prosthodontics"
+    address: "55 Caren Ave, Suite 270"
+    city: "Worthington"
+    state: "OH"
+    zip: "43085"
+    country:  "USA"
+    phone:  (614) 885-7721  # e.g.  754-307-6990
+    fax:
+    latlng: 40.105270, -83.018765
+    twitter:   #'https://twitter.com/worthingtondent'              # (e.g. 'https://twitter.com/twitter')
+    facebook:  'https://www.facebook.com/SpectrumDentalProsthodontics'         # (e.g. 'https://facebook.com/facebook')
+    yelp: 'https://www.yelp.com/biz/spectrum-dental-and-prosthodontics-worthington'
+    google_reviews: 'https://www.google.co.in/maps/place/Spectrum+Dental+and+Prosthodontics/@40.1052179,-83.0188391,15z/data=!4m5!3m4!1s0x0:0xbe91a7bcf9c0b1f1!8m2!3d40.1052179!4d-83.0188391'
+    healthgrades: #'https://www.healthgrades.com/dentist/dr-bradley-purcell-2wjrq'
+    linkedin:                     # (e.g. 'https://linkedin/company/linkedin')
+    youtube:                        # (e.g. 'https://youttube.com/channel/UCovWO5keLOLcLu8WdO-ABJw')
+
+  disqus_id:           # From your Disqus account (e.g. 'bowtieexample')
+
+  addthis_id:  ''       # From your Add This account (e.g. 'ra-00000a0a00a00aaa')
+
+# Permalinks
+permalink:           /:categories/:title/
+relative_permalinks: false
+
+#gems: [jekyll-paginate]
+
+# Pagination config
+#paginate: 5
+#paginate_path: /page/:num
+
+
+#toggle future post dates back on
+future: true
+
+#compress sass
+sass:
+  style: compressed
+
+# Jekyll build/resource locations
+
+# source:  .
+# destination: ./_site
+# plugins_dir: null
+# layouts_dir: ./_layouts
+# data_dir:    ./_data
+# includes_dir: ./_includes
+
+# Jekyll Handling Reading
+include:    [] # Specify files to be included in build that may be otherwise ignored (e.g. '[.htaccess]')
+
+keep_files: [] # Files/Folders located inside the ./_site folder to be retained on build (e.g.'[.git, .svn]')
+
+# Files/Folders to be excluded from generated '_site' folder
+exclude:
+  - .gitignore
+  - .sass-cache
+
+# define collection objects
+collections:
+  sections:
+    output: true
+    permalink: /sections/:path/
+  hero-slides:
+    output: false
+  office-slides:
+    output: false
+  procedures:
+    output: true
+  procedure-categories:
+    output: true
+  smile_makeover:
+    output: false
+  teeth_in_a_day:
+    output: false
+  reviews:
+    output: false
+  team:
+    output: false
+  patient-docs:
+    output: false
+  technologies:
+    output: true
+
+defaults:
+  - scope:
+      type: procedure-categories
+    values:
+      layout: procedure-categories
+  - scope:
+      type: pages
+    values:
+      noindex: true
+  - scope:
+      type: procedures
+    values:
+      layout: procedure
+  - scope:
+      type: technologies
+    values:
+      layout: technology

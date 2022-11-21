@@ -1,0 +1,38 @@
+{% assign categories = site.procedure-categories %}
+{% assign procedures = site.procedures %}
+<div class="container">
+    <div class="row">
+        {% for category in categories %}
+            <div class="col-sm-6">
+                <section class="alt text-center procedure-category">
+                    <img data-src="{{ category.img_path }}" alt="">
+                    <p class="text-white text-center">{{ category.title }}</p>
+                </section>
+                <div class="panel-group" id="procedures">
+                    {% for procedure in procedures %}
+                        {% if procedure.category == category.category %}
+                            {% unless procedure.opt-out %}
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="heading{{ procedure.title }}">
+                                        <h5 class="panel-title">
+                                                <span class="btn btn-default" data-toggle="collapse"
+                                                      data-parent="#procedures"
+                                                      href="#collapse{{ procedure.title }}">
+                                                    {{ procedure.title }}{{ section.available }}
+                                                </span>
+                                        </h5>
+                                    </div>
+                                    <div id="collapse{{ procedure.title }}" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            {% include procedure-details.html sections=procedure.sections %}
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endunless %}
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>

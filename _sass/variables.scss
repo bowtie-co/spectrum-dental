@@ -1,0 +1,98 @@
+$primary-font: Palatino; /** body, p **/
+$primary-font-weight: 300;
+$primary-font-color: #000;
+
+$heading-font: Palatino, 'Merriweather', serif; /** h1, h2, h3, h4, h5 **/
+$heading-font-size: 2rem;
+$heading-font-weight: 400;
+$heading-font-color: #000;
+
+$subheading-font: 'Open Sans'; /** h3, h4, h5 **/
+$subheading-font-weight: 400;
+$subheading-font-color: #000;
+
+$link-color: #2075A7;
+$link-weight: bold;
+$link-hover-color: #333;
+$link-hover-weight: null;
+
+$nav: #fff;
+$nav-hover: transparent;
+$nav-font-color: #333;
+$nav-hover-font-color: #000;
+
+$footer: #676767;
+$footer-font-color: #fff;
+$footer-link-color: #fff;
+$footer-link-hover-color: null;
+$subfooter-font-color: #fff;
+$subfooter-link-color: null;
+$footer-icon-color: null;
+$footer-border: none;
+
+/***** section settings and colors ****/
+
+$section-padding: 50px 20px;
+$content-container-bg: null;
+
+$section-font-color: null;
+$section-heading-font-color: null;
+$section-subheading-font-color: null;
+$section-link-color: null;
+$section-link-hover-color: null;
+$section-bg: #f2f2f2;
+
+$section-bgclear-font-color: #fff;
+$section-bgclear-heading-font-color: null;
+$section-bgclear-subheading-font-color: null;
+$section-bgclear-link-color: null;
+$section-bgclear-link-hover-color: null;
+
+$section-alt-font-color: #fff;
+$section-alt-subheading-font-color: null;
+$section-alt-heading-font-color: null;
+$section-alt-link-color: null;
+$section-alt-link-hover-color: null;
+$section-alt-bg: #5ba9d0;
+
+$section-dark-font-color: #fff;
+$section-dark-heading-font-color: #eee;
+$section-dark-subheading-font-color: null;
+$section-dark-link-color: null;
+$section-dark-link-hover-color: null;
+$section-dark-bg: #00263A;
+
+$section-grey-font-color: #fff;
+$section-grey-heading-font-color: #eee;
+$section-grey-subheading-font-color: null;
+$section-grey-link-color: null;
+$section-grey-link-hover-color: null;
+$section-grey-bg: #333333;
+
+/***** buttons ****/
+
+$btn-font-color: #fff;
+$radius: 6px;
+$default: #002942;
+$default-hover: #2990bb;
+$default-font-color: #fff;
+$info: #42aad5;
+$info-hover: #42aad5;
+$info-font-color: null;
+$success: #4ab152;
+$success-hover: #50a263;
+$success-font-color: #fff;
+$warning: null;
+$warning-hover: null;
+$warning-font-color: null;
+
+/***** form styles ****/
+
+$form-headline-color: null;
+$form-background-color: null;
+$form-border: null;
+$form-box-shadow: null;
+
+$mediatint-color: #65c4dc;
+$bgoverlayDark: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+$bgoverlayLight: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.9));
